@@ -1,10 +1,40 @@
-.bgVideo {
-  width: 100vw;
-  height: 100vh;
+.outer {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+.homeTopVideo:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to top,
+    rgba(65, 0, 255, 0.1),
+    rgba(255, 0, 232, 0.1)
+  );
+}
+
+.homeTopVideo {
+  left: 0%;
+  top: 0%;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.homeText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
 }
