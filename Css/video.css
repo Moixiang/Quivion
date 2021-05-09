@@ -13,11 +13,7 @@
   left: 0;
   bottom: 0;
   z-index: 1;
-  background: linear-gradient(
-    to top,
-    rgba(65, 0, 255, 0.1),
-    rgba(255, 0, 232, 0.1)
-  );
+  background-image: linear-gradient(rgba(4, 9, 30, 0.35), rgba(4, 9, 30, 0.35));
 }
 
 .homeTopVideo {
