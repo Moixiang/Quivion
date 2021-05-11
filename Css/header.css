@@ -1,50 +1,51 @@
 .header {
-	position: fixed;
-	width: 100vw;
-	text-align: center;
-	font-size: 2em;
-	background-color: rgba(0, 0, 0, 0.75);
-	transition: 0.5s;
-	z-index: 1;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.5s;
+  z-index: 1;
 }
 
 .navbar {
-	width: 75%;
-	height: 10vh;
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  width: 75%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-	font-family: "Playfair Display", serif;
-	font-size: 48px;
-	color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: white;
 }
 
 .navbarLinks a {
-	text-decoration: none;
-	transition-duration: 300ms;
-	font-size: 22px;
-	cursor: pointer;
-	color: white;
+  text-decoration: none;
+  transition-duration: 300ms;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
 }
 
 .navbarLinks a:hover {
-	color: coral;
+  color: coral;
 }
 
 .navbar ul li {
-	display: inline;
-	margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 .title {
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 78px;
-	font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 78px;
+  font-family: "Playfair Display", serif;
 }
