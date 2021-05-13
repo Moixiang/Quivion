@@ -5,12 +5,7 @@
 
 @font-face {
 	font-family: "Aquire-Light";
-	src: url(/AquireLight-YzE0o.otf) format("woff2");
-}
-
-p {
-	background: white; /* TAR BORT SEN */
-	color: black;
+	src: url("/AquireLight-YzE0o.otf") format("woff");
 }
 
 header {
