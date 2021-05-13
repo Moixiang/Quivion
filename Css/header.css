@@ -1,11 +1,9 @@
 @font-face {
-	font-display: swap;
 	font-family: "Aquire";
 	src: url(/Font/Aquire-BW0ox.otf) format("woff");
+}
 
-	font-family: "Aquire-Bold";
-	src: url(/Font/AquireBold-8Ma60.otf) format("woff");
-
+@font-face {
 	font-family: "Aquire-Light";
 	src: url(/Font/AquireLight-YzE0o.otf) format("woff");
 }
@@ -18,13 +16,14 @@ body {
 header {
 	background-color: black;
 	color: white;
-	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
 }
 
 .logo {
 	font-size: 1.3rem;
 	cursor: pointer;
 	transition: 500ms;
+	font-family: "Aquire";
 }
 
 .logo:hover {
