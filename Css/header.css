@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "Aquire";
-	src: url(/Aquire-BW0ox.otf) format("woff");
+	src: url("/Aquire-BW0ox.otf") format("woff");
 }
 
 @font-face {
 	font-family: "Aquire-Light";
-	src: url(/AquireLight-YzE0o.otf) format("woff");
+	src: url("/AquireLight-YzE0o.otf") format("woff");
 }
 
 header {
