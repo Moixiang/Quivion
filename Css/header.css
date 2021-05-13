@@ -11,12 +11,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 header {
 	background-color: black;
 	color: white;
-	font-weight: 100;
 }
 
 .logo {
@@ -27,7 +27,7 @@ header {
 }
 
 .logo:hover {
-	color: #ccc;
+	color: #f85536;
 }
 
 .navigation {
@@ -37,30 +37,20 @@ header {
 	padding: 10px 20px;
 }
 
-.navigationLinks ul {
-	display: flex;
-	padding: 0;
-	margin: 0;
+.navigationLinks ul li {
+	display: inline;
+	margin: 0 20px;
 }
 
 .navigationLinks a {
-	display: block;
 	text-decoration: none;
 	color: white;
-	margin: 1rem;
 	transition: 500ms;
+	font-family: "Aquire-Light";
 }
 
 .navigationLinks a:hover {
-	color: #ccc;
-}
-
-.navbanavigationLinksrLinks a:hover {
-	color: #ccc;
-}
-
-.navigationLinks li {
-	padding-left: 1.5rem;
+	color: #f85536;
 }
 
 .navButton {
