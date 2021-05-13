@@ -8,19 +8,13 @@
 	src: url(/Font/AquireLight-YzE0o.otf) format("woff");
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 header {
 	background-color: black;
 	color: white;
 }
 
 .logo {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 	transition: 500ms;
 	font-family: "Aquire";
@@ -35,6 +29,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
+	border-bottom: solid 2px white;
 }
 
 .navigationLinks ul li {
@@ -57,6 +52,11 @@ header {
 	display: none;
 	font-size: 2rem;
 	cursor: pointer;
+}
+
+.headerHeroImg {
+	background-color: white;
+	color: black;
 }
 
 /*
