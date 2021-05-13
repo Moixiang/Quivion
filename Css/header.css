@@ -1,51 +1,80 @@
-.header {
-  position: fixed;
-  width: 100vw;
-  height: 10vh;
-  text-align: center;
-  font-size: 2em;
-  background-color: rgba(0, 0, 0, 0);
-  transition: 0.5s;
-  z-index: 1;
+@font-face {
+	font-display: swap;
+	font-family: "Aquire";
+	src: url(/Font/Aquire-BW0ox.otf) format("woff");
+
+	font-family: "Aquire-Bold";
+	src: url(/Font/AquireBold-8Ma60.otf) format("woff");
+
+	font-family: "Aquire-Light";
+	src: url(/Font/AquireLight-YzE0o.otf) format("woff");
 }
 
-.navbar {
-  width: 75%;
-  height: 10vh;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+	font-family: "Montserrat", sans-serif;
 }
 
 .logo {
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
-  color: white;
+	font-size: 1.3rem;
+	cursor: pointer;
+	transition: 500ms;
 }
 
-.navbarLinks a {
-  text-decoration: none;
-  transition-duration: 300ms;
-  font-size: 22px;
-  cursor: pointer;
-  color: white;
+.logo:hover {
+	color: #ccc;
 }
 
-.navbarLinks a:hover {
-  color: coral;
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
 }
 
-.navbar ul li {
-  display: inline;
-  margin: 0 10px;
+.navigationLinks ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
 }
 
-.title {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 78px;
-  font-family: "Playfair Display", serif;
+.navigationLinks a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 1rem;
+	transition: 500ms;
 }
+
+.navigationLinks a:hover {
+	color: #ccc;
+}
+
+.navbanavigationLinksrLinks a:hover {
+	color: #ccc;
+}
+
+.navigationLinks li {
+	padding-left: 1.5rem;
+}
+
+.navButton {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+/*.title {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 78px;
+	font-family: "Playfair Display", serif;
+}*/
