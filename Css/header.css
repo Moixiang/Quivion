@@ -60,6 +60,7 @@ header {
 	display: none;
 	font-size: 2rem;
 	cursor: pointer;
+	transition: 300ms;
 }
 
 /*
