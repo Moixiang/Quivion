@@ -1,68 +1,68 @@
 .slider {
-	min-height: 100vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .img1 {
-	animation: modelJ 15s infinite;
+  animation: modelJ 15s infinite;
 }
 .img2 {
-	animation: modelI 15s infinite;
+  animation: modelI 15s infinite;
 }
 .img3 {
-	animation: modelN 15s infinite;
+  animation: modelN 15s infinite;
 }
 .img4 {
-	animation: modelG 15s infinite;
+  animation: modelG 15s infinite;
 }
 
 @keyframes modelJ {
-	0% {
-		background-image: url("../Images/ModelJ/ModelJ.jpg");
-	}
-	50% {
-		background-image: url("../Images/ModelJ/ModelJBack.jpg");
-	}
-	100% {
-		background-image: url("../Images/ModelJ/ModelJ.jpg");
-	}
+  0% {
+    background-image: url("../Images/ModelJ/ModelJ.jpg");
+  }
+  50% {
+    background-image: url("../Images/ModelJ/ModelJBack.jpg");
+  }
+  100% {
+    background-image: url("../Images/ModelJ/ModelJ.jpg");
+  }
 }
 
 @keyframes modelI {
-	0% {
-		background-image: url("../Images/ModelI/ModelI.jpg");
-	}
-	50% {
-		background-image: url("../Images/ModelI/ModelIBack.jpg");
-	}
-	100% {
-		background-image: url("../Images/ModelI/ModelI.jpg");
-	}
+  0% {
+    background-image: url("../Images/ModelI/ModelI.jpg");
+  }
+  50% {
+    background-image: url("../Images/ModelI/ModelIBack.jpg");
+  }
+  100% {
+    background-image: url("../Images/ModelI/ModelI.jpg");
+  }
 }
 
 @keyframes modelN {
-	0% {
-		background-image: url("../Images/ModelN/ModelN.jpg");
-	}
-	50% {
-		background-image: url("../Images/ModelN/ModelNBack.jpg");
-	}
+  0% {
+    background-image: url("../Images/ModelN/ModelN.jpg");
+  }
+  50% {
+    background-image: url("../Images/ModelN/ModelNBack.jpg");
+  }
 
-	100% {
-		background-image: url("../Images/ModelN/ModelN.jpg");
-	}
+  100% {
+    background-image: url("../Images/ModelN/ModelN.jpg");
+  }
 }
 
 @keyframes modelG {
-	0% {
-		background-image: url("../Images/ModelG/ModelG.jpg");
-	}
-	50% {
-		background-image: url("../Images/ModelG/ModelGBack.jpg");
-	}
-	100% {
-		background-image: url("../Images/ModelG/ModelG.jpg");
-	}
+  0% {
+    background-image: url("../Images/ModelG/ModelG.jpg");
+  }
+  50% {
+    background-image: url("../Images/ModelG/ModelGBack.jpg");
+  }
+  100% {
+    background-image: url("../Images/ModelG/ModelG.jpg");
+  }
 }
