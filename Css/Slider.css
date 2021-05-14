@@ -20,7 +20,7 @@
 
 @keyframes modelJ {
 	0% {
-		background-image: url("../Images/ModelJ/ModelJ.jpg");
+		background-image: url("/Images/ModelJ/ModelJ.jpg");
 	}
 	50% {
 		background-image: url("../Images/ModelJ/ModelJBack.jpg");
