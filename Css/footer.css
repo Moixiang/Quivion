@@ -23,9 +23,8 @@ footer {
 
 .footerContent {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	text-align: center;
 	align-items: center;
 	padding: 10px 0 10px 0;
@@ -60,4 +59,9 @@ footer {
 	display: flex;
 	align-items: center;
 	padding: 0;
+}
+
+.logo-copy {
+	display: flex;
+	align-items: center;
 }
