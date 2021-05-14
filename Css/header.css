@@ -1,81 +1,63 @@
 @font-face {
-	font-family: "Aquire";
-	src: url("/Aquire-BW0ox.otf") format("woff");
+  font-family: "Aquire";
+  src: url("/Aquire-BW0ox.otf") format("woff");
 }
 
 @font-face {
-	font-family: "Aquire-Light";
-	src: url("/AquireLight-YzE0o.otf") format("woff");
+  font-family: "Aquire-Light";
+  src: url("/AquireLight-YzE0o.otf") format("woff");
 }
 
 header {
-	background-color: black;
-	color: white;
-	z-index: 10;
+  background-color: black;
+  color: white;
+  z-index: 10;
+  transition: 500ms;
 }
 
 .logo {
-	font-size: 1.5rem;
-	cursor: pointer;
-	transition: 500ms;
-	font-family: "Aquire";
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 500ms;
+  font-family: "Aquire";
 }
 
 .logo:hover {
-	color: #f85536;
+  color: #f85536;
 }
 
 .navigation {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 20px;
-	background-color: black;
-	width: 96.5vw;
-	position: fixed;
-	opacity: 0;
-	top: -10%;
-	transition: 500ms;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  width: 98vw;
+  height: 5vh;
+  position: fixed;
+  transition: 300ms;
 }
 
 .navigationLinks ul li {
-	display: inline;
-	margin: 0 20px;
+  display: inline;
+  margin: 0 20px;
 }
 
 .navigationLinks a {
-	font-family: "Aquire-Light";
-	color: white;
-	text-decoration: none;
-	transition: 500ms;
+  font-family: "Aquire-Light";
+  color: white;
+  text-decoration: none;
+  transition: 200ms;
 }
 
 .navigationLinks a:hover {
-	color: #f85536;
+  color: #f85536;
 }
 
 .navButton {
-	display: none;
-	font-size: 2rem;
-	cursor: pointer;
-}
-
-.headerHeroImg {
-	background-color: white;
-	color: black;
-}
-
-.headerHeroText h1 {
-	margin: 0;
-}
-
-.image1 {
-	text-align: center;
-}
-
-img {
-	width: 630px;
-	height: auto;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 /*
