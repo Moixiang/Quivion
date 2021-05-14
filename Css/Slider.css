@@ -6,16 +6,16 @@
 	background-repeat: no-repeat;
 }
 .img1 {
-	animation: modelJ 10s infinite;
+	animation: modelJ 15s infinite;
 }
 .img2 {
-	animation: modelI 10s infinite;
+	animation: modelI 15s infinite;
 }
 .img3 {
-	animation: modelN 10s infinite;
+	animation: modelN 15s infinite;
 }
 .img4 {
-	animation: modelG 10s infinite;
+	animation: modelG 15s infinite;
 }
 
 @keyframes modelJ {
