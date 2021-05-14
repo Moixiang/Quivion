@@ -1,0 +1,63 @@
+@import url("https://css.gg/instagram.css");
+@import url("https://css.gg/twitter.css");
+@import url("https://css.gg/facebook.css");
+
+footer {
+	padding: 15px;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	font-family: "Aquire-Light";
+}
+
+.footerLogo {
+	font-family: "Aquire";
+	cursor: pointer;
+	transition: 500ms;
+	padding: 12px;
+}
+
+.footerLogo:hover {
+	color: #f85536;
+}
+
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding: 10px 0 10px 0;
+}
+
+.footerContent a {
+	text-decoration: none;
+	color: white;
+	transition: 300ms;
+}
+
+.footerContent a:hover {
+	color: #f85536;
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.footerLeft ul li {
+	display: inline;
+	margin: 0 6px;
+}
+
+.footerRight ul li {
+	display: inline;
+	margin: 0 20px;
+}
+
+.footerRight ul {
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
