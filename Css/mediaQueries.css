@@ -33,6 +33,16 @@
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.slider {
+		min-height: 65vw;
+		min-width: 100%;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
 @media screen and (max-width: 570px) {
 	.logo-navbutton {
 		width: 92vw;
