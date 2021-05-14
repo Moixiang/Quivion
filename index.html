@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="Css/mediaQueries.css">
 
   <script defer src="Js/scroll.js"></script>
-  <script defer src="Js/slider.js"></script>
   <script defer src="Js/navbar.js"></script>
 
   <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/688770124651560978/842488255986401280/unknown.png" type="image/x-icon">
@@ -20,25 +19,44 @@
 </head>
 
 <body>
-
   <header>
     <div class="navigation" id="header">
   
-        <div class="logo-navbutton">
-            <div class="logo">Quivion</div>
-            <div class="navButton">&#9776;</div>
-        </div>
+      <div class="logo-navbutton">
+          <div class="logo">Quivion</div>
+          <div class="navButton" id="navButton" onclick="openNavbar()">&#9776;</div>
+      </div>
         
-        <nav class="navigationLinks">
-            <ul>
-                <li><a href="#">Model J</a></li>
-                <li><a href="#">Model I</a></li>
-                <li><a href="#">Model N</a></li>
-                <li><a href="#">Model G</a></li>
-            </ul>
-        </nav>
-    </div>
+      <nav class="navigationLinks">
+          <ul>
+              <li><a href="#">Model J</a></li>
+              <li><a href="#">Model I</a></li>
+              <li><a href="#">Model N</a></li>
+              <li><a href="#">Model G</a></li>
+          </ul>
+      </nav>
 
+      <div class="hamburgerNav" id="hamburgerNavbarLinks">
+        <div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
+
+        <div class="hamburgerNavContent">
+          <ul>
+            <li><a href="#">Model J</a></li>
+            <hr>
+            <li><a href="#">Model I</a></li>
+            <hr>
+            <li><a href="#">Model N</a></li>
+            <hr>
+            <li><a href="#">Model G</a></li>
+            <hr>
+            <li><a href="#">Account</a></li>
+            <hr>
+          </ul>
+        </div>
+
+      </div>
+      
+    </div>
   </header>
 
   <main>
