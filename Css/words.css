@@ -21,10 +21,6 @@
 	text-decoration: none;
 }
 
-.btn:hover a {
-	color: #f85536;
-}
-
 .title {
 	font-size: 72px;
 	line-height: 1.3em;
