@@ -30,6 +30,15 @@
 	animation: modelG 15s infinite;
 }
 
+.img5 {
+	background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg");
+}
+
+.img5 p {
+	color: white;
+	font-size: 2rem;
+}
+
 @keyframes modelJ {
 	0% {
 		background-image: url("../Images/ModelJ/ModelJ.jpg");

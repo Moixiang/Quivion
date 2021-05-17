@@ -1,3 +1,13 @@
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sliderText {
+	text-align: center;
+}
+
 .book {
 	text-decoration: none;
 }
@@ -21,4 +31,5 @@
 	font-family: "Aquire-light";
 	color: white;
 	margin-top: 0;
+	margin: 0;
 }
