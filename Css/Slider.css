@@ -1,9 +1,16 @@
+.sliders {
+  /* overflow: scroll; */
+  /* height: 100vh; */
+  /* scroll-snap-type: y mandatory; */
+}
+
 .slider {
   min-height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  scroll-snap-align: start;
 }
 
 .img1 {

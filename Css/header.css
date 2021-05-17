@@ -17,6 +17,7 @@ header {
   color: white;
   z-index: 10;
   transition: 500ms;
+  z-index: 100;
 }
 
 hr {
@@ -49,6 +50,7 @@ hr {
   font-size: larger;
   position: fixed;
   transition: 300ms;
+  z-index: 100;
 }
 
 .navigationLinks ul li {
