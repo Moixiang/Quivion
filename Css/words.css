@@ -1,109 +1,24 @@
 .book {
-  font-size: 32px;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .test {
-  font-size: 32px;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .btn a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 .btn:hover a {
-  color: #f85536;
+	color: #f85536;
 }
 
 .title {
-  font-size: 72px;
-  line-height: 1.3em;
-  font-family: "Aquire-light";
-  color: white;
-}
-
-.title1 {
-  position: absolute;
-  top: 42%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.book1 {
-  position: absolute;
-  top: 75%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-
-.test1 {
-  position: absolute;
-  top: 75%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.title2 {
-  position: absolute;
-  top: 142%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.book2 {
-  position: absolute;
-  top: 175%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-
-.test2 {
-  position: absolute;
-  top: 175%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.title3 {
-  position: absolute;
-  top: 242%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.book3 {
-  position: absolute;
-  top: 275%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-
-.test3 {
-  position: absolute;
-  top: 275%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.title4 {
-  position: absolute;
-  top: 342%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
-.book4 {
-  position: absolute;
-  top: 375%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-
-.test4 {
-  position: absolute;
-  top: 375%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+	font-size: 72px;
+	line-height: 1.3em;
+	font-family: "Aquire-light";
+	color: white;
+	margin-top: 0;
 }
