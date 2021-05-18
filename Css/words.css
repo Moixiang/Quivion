@@ -6,6 +6,11 @@
 
 .sliderText {
 	text-align: center;
+	width: 50%;
+}
+
+.sliderText p {
+	font-family: "Aquire-light";
 }
 
 .book {
@@ -16,9 +21,32 @@
 	text-decoration: none;
 }
 
+.moreInfo-buy-Btn {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 5em;
+}
+
+.btn {
+	width: 40%;
+	border-radius: 20px;
+	border-style: hidden;
+	background-color: rgb(36, 36, 36, 0.8);
+}
+
 .btn a {
 	color: white;
 	text-decoration: none;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.buy {
+	background-color: white;
+}
+
+.buy a {
+	color: black;
 }
 
 .title {
