@@ -1,52 +1,49 @@
 body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	box-sizing: border-box;
-	overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  overflow-y: hidden;
 }
 
 * {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* width */
 ::-webkit-scrollbar {
-	width: 5px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: black;
+  background: black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	/*background: #f85536;*/
-	background-image: linear-gradient(
-		to top,
-		#f85536,
-		#f74946,
-		#f43e55,
-		#ee3664,
-		#e63271
-	);
+  /*background: #f85536;*/
+  background-image: linear-gradient(
+    to top,
+    #f85536,
+    #f74946,
+    #f43e55,
+    #ee3664,
+    #e63271
+  );
 }
 button {
-	transition: all 0.5s ease;
-	color: #fff;
-	border: 3px solid white;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 1;
-	font-size: 17px;
-	background-color: transparent;
-	padding: 10px;
-	outline: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #fff;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 20px;
+  text-decoration: none;
+  border-style: hidden;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

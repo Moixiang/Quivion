@@ -1,59 +1,49 @@
 .slider {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sliderText {
-	text-align: center;
-	width: 50%;
+  text-align: center;
+  width: 50%;
 }
 
 .sliderText p {
-	font-family: "Aquire-light";
-}
-
-.book {
-	text-decoration: none;
-}
-
-.test {
-	text-decoration: none;
+  font-family: "Aquire-light";
 }
 
 .moreInfo-buy-Btn {
-	display: flex;
-	justify-content: space-evenly;
-	padding-top: 5em;
-}
-
-.btn {
-	width: 40%;
-	border-radius: 20px;
-	border-style: hidden;
-	background-color: rgb(36, 36, 36, 0.8);
-}
-
-.btn a {
-	color: white;
-	text-decoration: none;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.buy {
-	background-color: white;
-}
-
-.buy a {
-	color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
 }
 
 .title {
-	font-size: 72px;
-	line-height: 1.3em;
-	font-family: "Aquire-light";
-	color: white;
-	margin-top: 0;
-	margin: 0;
+  font-size: 72px;
+  line-height: 1.3em;
+  font-family: "Aquire-light";
+  color: white;
+  margin-top: 0;
+  margin: 0;
+}
+
+.info {
+  background-color: rgb(36, 36, 36, 0.8);
+  color: white;
+}
+
+.buy {
+  background-color: white;
+  color: black;
+}
+
+.info:hover {
+  background-color: white;
+  color: black;
+}
+
+.buy:hover {
+  background-color: rgb(36, 36, 36, 0.8);
+  color: white;
 }
