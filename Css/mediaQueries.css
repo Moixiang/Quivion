@@ -1,53 +1,70 @@
 @media screen and (max-width: 769px) {
-  .logo-navbutton {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95vw;
-  }
-  .navButton {
-    display: flex;
-    justify-content: space-between;
-  }
+	.logo-navbutton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 95vw;
+	}
+	.navButton {
+		display: flex;
+		justify-content: space-between;
+	}
 
-  .navigationLinks {
-    display: none;
-  }
+	.navigationLinks {
+		display: none;
+	}
 
-  /*------------- Footer ---------------*/
+	/*------------- Footer ---------------*/
 
-  .footerContent {
-    flex-direction: column-reverse;
-  }
+	.footerContent {
+		flex-direction: column-reverse;
+	}
 
-  .footerLeft {
-    flex-direction: column;
-  }
+	.footerLeft {
+		flex-direction: column;
+	}
 
-  .footerLeft ul {
-    padding: 0;
-  }
+	.footerLeft ul {
+		padding: 0;
+	}
 
-  .logo-copy {
-    display: flex;
-    align-items: center;
-  }
+	.logo-copy {
+		display: flex;
+		align-items: center;
+	}
 }
 
 @media screen and (max-width: 600px) {
-  .slider {
-    min-height: 65vw;
-    min-width: 100%;
+	.slider {
+		min-height: 65vw;
+		min-width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+	/*------------- HeroImgText --------------*/
+
+	.title {
+		width: 52vw;
+	}
+
+	.moreInfo-buy-Btn button {
+		width: 50%;
+	}
+
+	.moreInfo-buy-Btn {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 1em;
+		width: 100%;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 570px) {
-  .logo-navbutton {
-    width: 92vw;
-  }
+	.logo-navbutton {
+		width: 92vw;
+	}
 
-  /*------------- Footer ---------------*/
+	/*------------- Footer ---------------*/
 }

@@ -1,49 +1,49 @@
 .slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .sliderText {
-  text-align: center;
-  width: 50%;
+	text-align: center;
+	width: 50%;
 }
 
 .sliderText p {
-  font-family: "Aquire-light";
+	font-family: "Aquire-light";
 }
 
 .moreInfo-buy-Btn {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 5em;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 5em;
 }
 
 .title {
-  font-size: 72px;
-  line-height: 1.3em;
-  font-family: "Aquire-light";
-  color: white;
-  margin-top: 0;
-  margin: 0;
+	font-size: 72px;
+	line-height: 1.3em;
+	font-family: "Aquire-light";
+	color: white;
+	margin-top: 0;
+	margin: 0;
 }
 
 .info {
-  background-color: rgb(36, 36, 36, 0.8);
-  color: white;
+	background-color: rgb(36, 36, 36, 0.8);
+	color: white;
 }
 
 .buy {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
 
 .info:hover {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
 
 .buy:hover {
-  background-color: rgb(36, 36, 36, 0.8);
-  color: white;
+	background-color: rgb(36, 36, 36, 0.8);
+	color: white;
 }
