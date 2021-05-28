@@ -3,9 +3,9 @@
 @import url("https://css.gg/facebook.css");
 
 footer {
-	padding: 15px;
 	bottom: 0;
 	background-color: black;
+	padding-top: 5em;
 	color: white;
 	font-family: "Aquire-Light";
 }

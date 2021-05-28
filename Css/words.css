@@ -1,12 +1,25 @@
+.img5Text {
+	margin-top: 10em;
+}
+
 .slider {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .sliderText {
 	text-align: center;
 	width: 50%;
+	margin-bottom: 3em;
+}
+
+.img5Text {
+	text-align: center;
+	width: 50%;
+	margin-bottom: 3em;
+	font-family: "Aquire-light";
 }
 
 .sliderText p {
